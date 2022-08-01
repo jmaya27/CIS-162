@@ -1,6 +1,5 @@
 html {
-    font-family: "Palatino Linotype,Verdana";
-    font-size:28px;
+   
     width: 100%;
     background-image: url("circuit-board-2.jpg");
     position: relative;
@@ -27,17 +26,19 @@ html {
     
     body {
         font-family: "Audiowide", sans-serif;
-        text-align: center;
         font-size: 20px;
+        text-align: justify;
+        color: green;
+        background-color:rgb(34, 33, 32);
         width: 90%;  
         padding: 40px;
         position: relative; 
         grid-template-columns: 2fr 1fr;
         grid-template-areas: 
-            'header header header'
-            'nav nav nav'
-            'main main image'
-            'footer footer footer';
+            'header header'
+            'nav    nav'
+            'main   image'
+            'footer footer';
         grid-column-gap: 100px;
     }
     
@@ -49,7 +50,7 @@ html {
         text-align:center;
         width: 160px;
         background-color:rgb(34, 33, 32);
-        
+        position: relative;
     }
       
       .left {
@@ -57,7 +58,7 @@ html {
     }
       
       .right {
-        width: 60%;
+        width: 50%;
         
       }
      
